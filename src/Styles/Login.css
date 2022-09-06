@@ -1,0 +1,96 @@
+#loginContainer {
+    background-color: #0047ab;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#loginRight {
+    position: relative;
+    background-color: white;
+    width: 40vw;
+    left: 60vw;
+    height: 100vh;
+    top: -2vh;
+    text-align: center;
+}
+
+#loginRightTitle {
+    position: relative;
+    top: 15vw;
+}
+
+ /* Login Form */
+
+#loginForm {
+    position: relative;
+    top: 18vw;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+
+#loginUsername, #loginPassword {
+    position: relative;
+    width: 20vw;
+    height: 1.5vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(248, 241, 241);
+    text-indent: 1vw;
+} 
+
+#loginUsername:focus, #loginPassword:focus {
+    outline: none;
+}
+
+#rememberMeCheckbox {
+    position: relative;
+    left: -9vw;
+    top: -1vw;
+}
+
+#rememberMeText {
+    position: relative;
+    left: -5vw
+}
+
+/* Login button */
+
+#loginSubmitButton {
+    position: relative;
+    background-color: #0047ab;
+    color: white;
+    width: 10vw;
+    left: 15vw;
+    margin: 10px;
+    border-radius: 5px;
+    height: 1.5vw;
+    line-height: 1.5vw;
+}
+
+#loginSubmitButton:hover {
+    cursor: pointer;
+}
+
+/* Reveal Password Icon */
+
+#passwordEyeIcon {
+    position: absolute;
+    top: 3.5vw;
+    left: 28.5vw;
+}
+
+#passwordEyeIcon:hover {
+    cursor: pointer;
+}
+
+#registerButton {
+    position: absolute;
+    left: 26vw;
+    top: 5.30vw;
+}
+
+#registerButton:hover {
+    cursor: pointer;
+}

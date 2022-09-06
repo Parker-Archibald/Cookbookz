@@ -1,0 +1,39 @@
+#navContainer {
+    position: absolute;
+    top: 5vh;
+    height: 90vh;
+    width: 15vw;
+    font-size: 1.5vw;
+}
+
+#appTitle {
+    position: relative;
+    left: 2vw;
+    top: -2vw;
+    color: white;
+}
+
+#navDiscoverText, #navPersonalText {
+    color: gray;
+}
+
+#homepageLink, #browseLink, #myRecipesLink, #groceryLink, #calendarLink, #myFoodLink {
+    position: relative;
+    margin: 2vw;
+    left: 1vw;
+}
+
+#navDiscoverText, #navPersonalText {
+    position: relative;
+    left: 2vw;
+}
+
+#homeIcon, #browseIcon, #myRecipesIcons, #groceryIcon, #calendarIcon, #myFoodIcon {
+    position: relative;
+    margin-right: 1vw;
+    top: .15vw;
+}
+
+#homeLinkText:hover, #browseLinkText:hover, #myRecipesText:hover, #groceryLinkText:hover, #calendarLinkText:hover, #myFoodText:hover {
+    color: gray;
+}

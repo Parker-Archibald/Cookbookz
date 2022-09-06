@@ -1,0 +1,50 @@
+#registerContainer {
+    position: absolute;
+    background-color: #0047ab;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    overflow: hidden;
+}
+
+#registerRightContainer {
+    position: relative;
+    top: -3vh;
+    background-color: white;
+    width: 60vw;
+    height: 101vh;
+    left: 40vw;
+    text-align: center;
+}
+
+#registerTitle {
+    position: relative;
+    top: 10vw;
+}
+
+#registerName, #registerNameLast, #registerUsername, #registerPassword, #registerEmail {
+    position: relative;
+    width: 20vw;
+    height: 1.5vw;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(248, 241, 241);
+    text-indent: 1vw;
+    top: 13vw;
+}
+
+#registerEmail {
+    top: 12vw;
+}
+
+#registerName:focus, #registerNameLast:focus, #registerUsername:focus, #registerPassword:focus, #registerEmail:focus {
+    outline: none;
+}
+
+#registerPasswordIcon {
+    position: relative;
+    top: 11.2vw;
+    left: 49.4vw;
+    width: 1vw;
+}

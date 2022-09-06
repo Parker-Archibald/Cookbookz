@@ -1,0 +1,30 @@
+#topNavContainer {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+}
+
+#topNavSearchIcon {
+    position: absolute;
+    left: 20vw;
+    top: 3.5vw;
+    color: gray;
+}
+
+#topNavSearch {
+    position: absolute;
+    bottom: 0;
+    left: 20vw;
+    border: none;
+    width: 30vw;
+    height: 1.5vw;
+    background-color: transparent;
+    /* border-bottom: 1px solid gray; */
+    text-indent: 1.5vw;
+    color: gray;
+}
+
+#topNavSearch:focus {
+    outline: none;
+}
