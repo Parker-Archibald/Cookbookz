@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import '../Styles/Register.css';
 import {HiEyeOff, HiEye} from 'react-icons/hi';
+import {Link} from 'react-router-dom';
 
 const Register = () => {
 
@@ -30,6 +31,8 @@ const Register = () => {
                     <input type='password' id='registerPassword' placeholder='Password'/>
                     <div id='registerPasswordIcon' onClick={handleShowPassword}>{state.icon}</div>
                     <input type='email' id='registerEmail' placeholder='Email'/>
+                    <div id='registerLoginLink'>Already have a login? <Link to='/' style={{'color': 'black'}}>Login</Link></div>
+                    <div id='registerButton'>Sign Up!</div>
                 </form>
             </div>
         </div>

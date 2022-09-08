@@ -85,10 +85,14 @@
     cursor: pointer;
 }
 
-#registerButton {
+#registerLink {
     position: absolute;
     left: 26vw;
     top: 5.30vw;
+}
+
+#registerLink:hover {
+    cursor: pointer;
 }
 
 #registerButton:hover {

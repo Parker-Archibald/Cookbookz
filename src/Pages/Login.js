@@ -30,8 +30,8 @@ const Login = () => {
                     <input type='password' id='loginPassword' placeholder='Password'/><div id='rememberMeText'>Remember Me</div>
                     <div id='passwordEyeIcon' onClick={handleReveal}>{state.icon}</div>
                     <input type='checkbox' id='rememberMeCheckbox'/>
-                    <div id='registerButton'>Register</div> 
-                    <div id='loginSubmitButton'><Link to='/register' style={{color: 'black', textDecoration: 'none'}}>Login</Link></div>
+                    <div id='registerLink'><Link to='/register' style={{color: 'black', textDecoration: 'none'}}>Register</Link></div> 
+                    <div id='loginSubmitButton'>Login</div>
                 </form>
             </div>
         </div>
