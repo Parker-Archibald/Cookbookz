@@ -1,8 +1,9 @@
 import React from 'react';
+import '../Styles/Calendar.css';
 
 const Calendar = () => {
     return(
-        <div>
+        <div id='calendarContainer'>
             Calendar
         </div>
     )

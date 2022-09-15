@@ -3,6 +3,7 @@
     top: 0;
     width: 100vw;
     height: 10vh;
+    z-index: 1000;
 }
 
 #topNavSearchIcon {
@@ -27,4 +28,13 @@
 
 #topNavSearch:focus {
     outline: none;
+}
+
+#topNavProfile {
+    position: absolute;
+    color: white;
+    right: 0;
+    margin-right: 2vw;
+    top: 1vw;
+    font-size: 2vw;
 }

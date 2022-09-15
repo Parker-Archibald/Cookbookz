@@ -11,18 +11,26 @@ import Register from '../Pages/Register';
 
 
 const Routing = () => {
-    return(
-        <Routes>
-            <Route path='/' element={<Login/>}/>
-            <Route path='/homepage' element={<Homepage/>}/>
-            <Route path='/browse' element={<Browse/>}/>
-            <Route path='/calendar' element={<Calendar/>}/>
-            <Route path='/groceryList' element={<GroceryList/>}/>
-            <Route path='/myFood' element={<MyFood/>}/>
-            <Route path='/myRecipes' element={<MyRecipes/>}/>
-            <Route path='/register' element ={<Register/>}/>
-        </Routes>
-    )
+    if(localStorage.getItem('isLoggedIn') === 'false') {
+        return(
+            <Routes>
+                <Route path='/' element={<Login/>}/> 
+                <Route path='/register' element ={<Register/>}/>   
+            </Routes>
+        )
+    }
+    else {
+        return(
+            <Routes>
+                <Route path='/' element={<Homepage/>}/>
+                <Route path='/browse' element={<Browse/>}/>
+                <Route path='/calendar' element={<Calendar/>}/>
+                <Route path='/groceryList' element={<GroceryList/>}/>
+                <Route path='/myFood' element={<MyFood/>}/>
+                <Route path='/myRecipes' element={<MyRecipes/>}/>
+            </Routes>
+        )
+    }
 }
 
 export default Routing;

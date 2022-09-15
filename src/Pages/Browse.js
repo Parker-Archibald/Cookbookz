@@ -1,8 +1,9 @@
 import React from 'react';
+import '../Styles/Browse.css';
 
 const Browse = () => {
     return(
-        <div>
+        <div id='browseContainer'>
             Browse Page
         </div>
     )

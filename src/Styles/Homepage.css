@@ -1,0 +1,15 @@
+#homepageContainer {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(58, 57, 57);
+}
+
+#homepage {
+    position: relative;
+    left: 20vw;
+    top: 20vh;
+    width: 80vw;
+    height: 80vh;
+    overflow-y: scroll;
+}

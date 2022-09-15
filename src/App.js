@@ -9,7 +9,7 @@ import Homepage from './Pages/Homepage';
 
 function App() {
 
-  if(localStorage.isLoggedIn === true) {
+  if(localStorage.getItem('isLoggedIn') === 'true') {
     return(
       <div className='App'>
         <Router>

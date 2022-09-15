@@ -1,8 +1,9 @@
 import React from 'react';
+import '../Styles/MyFood.css';
 
 const MyFood = () => {
     return (
-        <div>
+        <div id='myFoodContainer'>
             My Food
         </div>
     )

@@ -4,6 +4,7 @@
     height: 90vh;
     width: 15vw;
     font-size: 1.5vw;
+    z-index: 1000;
 }
 
 #appTitle {
@@ -17,7 +18,7 @@
     color: gray;
 }
 
-#homepageLink, #browseLink, #myRecipesLink, #groceryLink, #calendarLink, #myFoodLink {
+#homepageLink, #browseLink, #myRecipesLink, #groceryLink, #calendarLink, #myFoodLink, #navLogout {
     position: relative;
     margin: 2vw;
     left: 1vw;
@@ -28,12 +29,13 @@
     left: 2vw;
 }
 
-#homeIcon, #browseIcon, #myRecipesIcons, #groceryIcon, #calendarIcon, #myFoodIcon {
+#homeIcon, #browseIcon, #myRecipesIcons, #groceryIcon, #calendarIcon, #myFoodIcon, #logoutIcon {
     position: relative;
     margin-right: 1vw;
     top: .15vw;
+    color: white;
 }
 
-#homeLinkText:hover, #browseLinkText:hover, #myRecipesText:hover, #groceryLinkText:hover, #calendarLinkText:hover, #myFoodText:hover {
+#homeLinkText:hover, #browseLinkText:hover, #myRecipesText:hover, #groceryLinkText:hover, #calendarLinkText:hover, #myFoodText:hover, #logoutText:hover {
     color: gray;
 }
